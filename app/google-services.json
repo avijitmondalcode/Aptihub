@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "831014821079",
+    "firebase_url": "https://my-firebase-demo-a6e40.firebaseio.com",
+    "project_id": "my-firebase-demo-a6e40",
+    "storage_bucket": "my-firebase-demo-a6e40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831014821079:android:c206c673aa6c5419",
+        "android_client_info": {
+          "package_name": "com.example.root.sumon_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831014821079-7ctfgfmuijjhgrp4tf0g9nhudq7auivu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA25ni7ygsH8vpKvBvIybq3BIbFx2Oa4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831014821079-7ctfgfmuijjhgrp4tf0g9nhudq7auivu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831014821079:android:f99984b3522500ef3be492",
+        "android_client_info": {
+          "package_name": "com.dinocodeacademy.maingoquizagain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831014821079-7ctfgfmuijjhgrp4tf0g9nhudq7auivu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA25ni7ygsH8vpKvBvIybq3BIbFx2Oa4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831014821079-7ctfgfmuijjhgrp4tf0g9nhudq7auivu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

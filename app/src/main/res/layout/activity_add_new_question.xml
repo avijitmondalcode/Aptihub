@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".AddNewQuestion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:background="@drawable/button_next_background"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Question Added"
+        android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/tvTotal"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:background="#6E80E8"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/etQuestion"
+        android:layout_width="match_parent"
+        android:layout_marginTop="13dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:background="@drawable/custominput"
+        android:textColorHint="#F6EDED"
+        android:paddingStart="12dp"
+        android:textColor="@color/white"
+        android:hint="Enter Question Name" />
+
+    <EditText
+        android:id="@+id/etOpt1"
+        android:background="@drawable/custominput"
+        android:textColorHint="#F6EDED"
+        android:textColor="@color/white"
+        android:paddingStart="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="option 1" />
+
+    <EditText
+        android:id="@+id/etOpt2"
+        android:layout_width="match_parent"
+        android:background="@drawable/custominput"
+        android:textColor="@color/white"
+        android:textColorHint="#F6EDED"
+        android:paddingStart="12dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="option 2" />
+
+    <EditText
+        android:id="@+id/etOpt3"
+        android:background="@drawable/custominput"
+        android:textColor="@color/white"
+        android:textColorHint="#F6EDED"
+        android:paddingStart="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="option 3" />
+
+    <EditText
+        android:id="@+id/etOpt4"
+        android:background="@drawable/custominput"
+        android:textColorHint="#F6EDED"
+        android:textColor="@color/white"
+        android:paddingStart="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="option 4" />
+
+    <EditText
+        android:id="@+id/etAnswer"
+        android:background="@drawable/custominput"
+        android:textColorHint="#F6EDED"
+        android:paddingStart="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Press 1 to 4" />
+
+    <Button
+        android:id="@+id/btnSubQues"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custominput"
+        android:text="Add Question" />
+    </LinearLayout>
+
+</LinearLayout>
